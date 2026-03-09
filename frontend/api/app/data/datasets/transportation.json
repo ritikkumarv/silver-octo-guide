@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tr-001",
+    "category": "Transportation",
+    "name": "Montgomery Area Transit System (MATS)",
+    "description": "Public bus system operating 11 fixed routes across Montgomery. Serves major shopping areas, medical facilities, government buildings, and educational institutions. $1.25 base fare.",
+    "location": "495 Molton St, Montgomery, AL 36104",
+    "lat": 32.3773,
+    "lon": -86.3051,
+    "contact": "(334) 262-7321",
+    "routes": 11,
+    "daily_ridership": 4200,
+    "fare": "$1.25",
+    "hours": "Mon-Sat 5:00 AM - 7:00 PM"
+  },
+  {
+    "id": "tr-002",
+    "category": "Transportation",
+    "name": "Montgomery Regional Airport (MGM)",
+    "description": "Commercial airport serving the River Region with flights to major hubs including Atlanta, Dallas, Charlotte, and Chicago. Recently completed $48M terminal renovation.",
+    "location": "4445 Selma Hwy, Montgomery, AL 36108",
+    "lat": 32.3006,
+    "lon": -86.3940,
+    "contact": "(334) 281-5040",
+    "airlines": ["American Airlines", "Delta", "United", "Frontier"],
+    "annual_passengers": 420000
+  },
+  {
+    "id": "tr-003",
+    "category": "Transportation",
+    "name": "Major Roadway Network",
+    "description": "Montgomery is served by I-65 (north-south), I-85 (northeast to Atlanta), and US-231, US-80, US-82. The Northern Bypass (I-85/I-65 connector) reduces downtown congestion.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "interstates": ["I-65", "I-85"],
+    "us_highways": ["US-80", "US-82", "US-231", "US-331"],
+    "avg_commute_minutes": 21.5
+  },
+  {
+    "id": "tr-004",
+    "category": "Transportation",
+    "name": "Bike & Pedestrian Infrastructure",
+    "description": "Growing network of bike lanes, shared-use paths, and pedestrian improvements. The Riverwalk trail system, downtown bike lanes, and planned Greenway connections expand options.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "bike_lanes_miles": 12.5,
+    "shared_use_paths_miles": 18.3,
+    "planned_greenway_miles": 25
+  },
+  {
+    "id": "tr-005",
+    "category": "Transportation",
+    "name": "Traffic Counts & Congestion",
+    "description": "Highest traffic volumes on Eastern Blvd (45,000 AADT), Atlanta Hwy (38,000 AADT), and Vaughn Rd (32,000 AADT). Peak hours 7-9 AM and 4-6:30 PM.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "high_volume_corridors": [
+      {"road": "Eastern Blvd", "aadt": 45000},
+      {"road": "Atlanta Hwy", "aadt": 38000},
+      {"road": "Vaughn Rd", "aadt": 32000},
+      {"road": "Perry Hill Rd", "aadt": 28000}
+    ],
+    "peak_hours": ["7:00-9:00 AM", "4:00-6:30 PM"]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ps-001",
+    "category": "Public Safety",
+    "name": "Montgomery Police Department - Headquarters",
+    "description": "MPD serves the city with approximately 500 sworn officers. Operates 4 precincts covering all areas of Montgomery. Community policing programs include Neighborhood Watch and DARE.",
+    "location": "320 N Ripley St, Montgomery, AL 36104",
+    "lat": 32.3818,
+    "lon": -86.3050,
+    "contact": "Emergency: 911 | Non-Emergency: (334) 625-2831",
+    "officers": 500,
+    "precincts": 4,
+    "status": "Active"
+  },
+  {
+    "id": "ps-002",
+    "category": "Public Safety",
+    "name": "Montgomery Fire/Rescue Department",
+    "description": "MFR operates 20 fire stations across the city with approximately 400 firefighters. Provides fire suppression, EMS, hazmat response, and technical rescue services.",
+    "location": "1021 Madison Ave, Montgomery, AL 36104",
+    "lat": 32.3815,
+    "lon": -86.3095,
+    "contact": "Emergency: 911 | Admin: (334) 625-2854",
+    "stations": 20,
+    "firefighters": 400,
+    "status": "Active"
+  },
+  {
+    "id": "ps-003",
+    "category": "Public Safety",
+    "name": "Crime Statistics - 2025 Overview",
+    "description": "Year-over-year crime trends show a 12% decrease in property crime and 8% decrease in violent crime in 2025. Focus areas include downtown, west Montgomery, and Atlanta Highway corridor.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "property_crime_change": -12,
+    "violent_crime_change": -8,
+    "focus_areas": ["Downtown", "West Montgomery", "Atlanta Highway"],
+    "year": 2025
+  },
+  {
+    "id": "ps-004",
+    "category": "Public Safety",
+    "name": "SafetyNet Camera System",
+    "description": "Network of over 200 surveillance cameras at key intersections and high-crime areas throughout Montgomery. Integrated with the Real Time Crime Center for rapid response.",
+    "location": "Multiple Locations, Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "cameras_installed": 215,
+    "coverage_areas": ["Downtown", "Midtown", "East Blvd", "West Side", "Atlanta Hwy"]
+  },
+  {
+    "id": "ps-005",
+    "category": "Public Safety",
+    "name": "Emergency Management Agency",
+    "description": "Coordinates disaster preparedness, severe weather response, and emergency operations. Manages the Emergency Operations Center and CodeRED mass notification system.",
+    "location": "103 N Perry St, Montgomery, AL 36104",
+    "lat": 32.3779,
+    "lon": -86.3006,
+    "contact": "(334) 625-2670",
+    "shelter_locations": 8,
+    "codered_subscribers": 42000
+  },
+  {
+    "id": "ps-006",
+    "category": "Public Safety",
+    "name": "Precinct Map & Response Times",
+    "description": "Average emergency response time is 6.2 minutes citywide. Precinct 1 (North): 5.8 min, Precinct 2 (East): 6.0 min, Precinct 3 (West): 6.5 min, Precinct 4 (South): 6.4 min.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "avg_response_minutes": 6.2,
+    "precinct_data": [
+      {"precinct": 1, "area": "North", "response_min": 5.8},
+      {"precinct": 2, "area": "East", "response_min": 6.0},
+      {"precinct": 3, "area": "West", "response_min": 6.5},
+      {"precinct": 4, "area": "South", "response_min": 6.4}
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "ph-001",
+    "category": "Public Health",
+    "name": "Montgomery Department of Public Health",
+    "description": "Provides immunizations, disease surveillance, WIC nutrition services, environmental health inspections, and health education programs. Serves the River Region with comprehensive preventive care.",
+    "location": "3060 Mobile Hwy, Montgomery, AL 36108",
+    "lat": 32.3559,
+    "lon": -86.3551,
+    "contact": "(334) 293-6400",
+    "services": ["Immunizations", "STD Testing", "WIC", "Environmental Health", "Vital Records"],
+    "status": "Open"
+  },
+  {
+    "id": "ph-002",
+    "category": "Public Health",
+    "name": "Baptist Medical Center South",
+    "description": "Major regional hospital with 400+ beds. Emergency department, trauma center, cardiac care, cancer treatment, and surgical services. One of Montgomery's largest employers.",
+    "location": "2105 E South Blvd, Montgomery, AL 36116",
+    "lat": 32.3471,
+    "lon": -86.2771,
+    "contact": "(334) 288-2100",
+    "beds": 432,
+    "er_available": true,
+    "status": "Open"
+  },
+  {
+    "id": "ph-003",
+    "category": "Public Health",
+    "name": "Jackson Hospital",
+    "description": "Full-service community hospital with 344 beds. Offers emergency care, birthing center, orthopedic services, rehabilitation, and outpatient clinics across Montgomery.",
+    "location": "1725 Pine St, Montgomery, AL 36106",
+    "lat": 32.3678,
+    "lon": -86.2887,
+    "contact": "(334) 293-8000",
+    "beds": 344,
+    "er_available": true,
+    "status": "Open"
+  },
+  {
+    "id": "ph-004",
+    "category": "Public Health",
+    "name": "Community Health Centers",
+    "description": "Network of federally qualified health centers providing primary care, dental, behavioral health, and pharmacy services to underserved populations. Sliding fee scale available.",
+    "location": "Multiple Locations, Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "centers_count": 6,
+    "patients_served_annually": 35000,
+    "services": ["Primary Care", "Dental", "Behavioral Health", "Pharmacy", "Pediatrics"]
+  },
+  {
+    "id": "ph-005",
+    "category": "Public Health",
+    "name": "Air Quality Index - Montgomery",
+    "description": "Montgomery generally maintains Good to Moderate air quality. Industrial areas near west Montgomery may occasionally show elevated PM2.5 levels. Real-time monitoring at 3 stations.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "current_aqi": 42,
+    "aqi_category": "Good",
+    "monitoring_stations": 3
+  },
+  {
+    "id": "ph-006",
+    "category": "Public Health",
+    "name": "Mental Health Resources",
+    "description": "Montgomery Area Mental Health Authority (MAMHA) provides crisis intervention, outpatient counseling, substance abuse treatment, and residential services. Crisis hotline available 24/7.",
+    "location": "2140 Upper Wetumpka Rd, Montgomery, AL 36107",
+    "lat": 32.4011,
+    "lon": -86.2780,
+    "contact": "Crisis Line: (334) 279-7830",
+    "services": ["Crisis Intervention", "Outpatient Counseling", "Substance Abuse", "Residential"],
+    "status": "Open"
+  }
+]

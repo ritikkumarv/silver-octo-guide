@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pd-001",
+    "category": "Planning and Development",
+    "name": "Downtown Revitalization District",
+    "description": "Multi-phase downtown development plan including Commerce Street corridor improvements, new mixed-use buildings, and expansion of the Riverwalk district. Investment exceeds $150M.",
+    "location": "Downtown, Montgomery, AL 36104",
+    "lat": 32.3770,
+    "lon": -86.3010,
+    "project_status": "In Progress",
+    "investment_amount": 150000000,
+    "start_year": 2023,
+    "estimated_completion": 2027
+  },
+  {
+    "id": "pd-002",
+    "category": "Planning and Development",
+    "name": "East Montgomery Growth Corridor",
+    "description": "New residential and commercial development along Eastern Blvd and Taylor Road area. Includes planned retail centers, housing developments, and infrastructure upgrades.",
+    "location": "Eastern Blvd, Montgomery, AL 36117",
+    "lat": 32.3632,
+    "lon": -86.1817,
+    "project_status": "Planning",
+    "investment_amount": 85000000,
+    "start_year": 2025,
+    "estimated_completion": 2029
+  },
+  {
+    "id": "pd-003",
+    "category": "Planning and Development",
+    "name": "Opportunity Zones",
+    "description": "Federal Opportunity Zones in Montgomery provide tax incentives for investment in designated census tracts. Current zones include downtown, west Montgomery, and areas near Alabama State University.",
+    "location": "Multiple Zones, Montgomery, AL",
+    "lat": 32.3650,
+    "lon": -86.3200,
+    "project_status": "Active",
+    "zones_count": 12,
+    "total_investment_attracted": 45000000
+  },
+  {
+    "id": "pd-004",
+    "category": "Planning and Development",
+    "name": "Business License Statistics",
+    "description": "Montgomery issues approximately 8,500 active business licenses. Top categories: Retail (22%), Food Service (15%), Professional Services (18%), Construction (12%), Healthcare (8%).",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "active_licenses": 8500,
+    "new_licenses_2025": 620,
+    "top_sectors": ["Retail", "Food Service", "Professional Services", "Construction", "Healthcare"]
+  },
+  {
+    "id": "pd-005",
+    "category": "Planning and Development",
+    "name": "Zoning Map Updates 2025",
+    "description": "Updated zoning ordinances include new mixed-use overlay districts, streamlined permitting for small businesses, and enhanced environmental protections near waterways.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "project_status": "Approved",
+    "new_overlay_districts": 4,
+    "effective_date": "2025-07-01"
+  },
+  {
+    "id": "pd-006",
+    "category": "Planning and Development",
+    "name": "Affordable Housing Initiative",
+    "description": "City program to build 1,200 new affordable housing units across Montgomery by 2028. Partnerships with Habitat for Humanity and local developers. Focuses on west and north Montgomery neighborhoods.",
+    "location": "West Montgomery, AL",
+    "lat": 32.3800,
+    "lon": -86.3350,
+    "project_status": "In Progress",
+    "planned_units": 1200,
+    "units_completed": 340,
+    "investment_amount": 72000000
+  }
+]

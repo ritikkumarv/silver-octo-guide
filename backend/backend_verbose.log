@@ -1,0 +1,76 @@
+2026-03-09 13:40:55,076 [INFO] app.main: Starting MontgomeryAI Backend with verbose logging enabled.
+2026-03-09 13:41:25,317 [INFO] app.main: Starting MontgomeryAI Backend with verbose logging enabled.
+2026-03-09 13:42:33,144 [DEBUG] httpcore.connection: connect_tcp.started host='services7.arcgis.com' port=443 local_address=None timeout=15 socket_options=None
+2026-03-09 13:42:33,337 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD345A90>
+2026-03-09 13:42:33,337 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D6AD4968D0> server_hostname='services7.arcgis.com' timeout=15
+2026-03-09 13:42:33,476 [DEBUG] httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD317B50>
+2026-03-09 13:42:33,477 [DEBUG] httpcore.http11: send_request_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:33,477 [DEBUG] httpcore.http11: send_request_headers.complete
+2026-03-09 13:42:33,479 [DEBUG] httpcore.http11: send_request_body.started request=<Request [b'GET']>
+2026-03-09 13:42:33,479 [DEBUG] httpcore.http11: send_request_body.complete
+2026-03-09 13:42:33,479 [DEBUG] httpcore.http11: receive_response_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:34,100 [DEBUG] httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 09 Mar 2026 08:12:34 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'2340'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=30, s-maxage=30'), (b'Content-Encoding', b'gzip'), (b'Last-Modified', b'Mon, 02 Mar 2026 15:41:44 GMT'), (b'ETag', b'sd3317_1037273298'), (b'Vary', b'X-Esri-Authorization'), (b'Request-Context', b'appId=cid-v1:e760746d-7077-47f1-a125-f6cc9f1bba28'), (b'Request-Context', b'appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940'), (b'x-arcgis-upstream', b'us1h07c00-services'), (b'Strict-Transport-Security', b'max-age=63072000'), (b'X-ArcGIS-Trace-Id', b'20260309T064113Z-16bfbbb745fbdgrthC1BOM1bgn0000001rsg00000000bk3f'), (b'x-esri-query-request-units', b'3'), (b'x-esri-tiles-basic-query-mode', b'true'), (b'x-esri-tiles-basic-query-type', b'Basic'), (b'x-esri-org-request-units-per-min', b'usage=3;max=6000'), (b'X-ArcGIS-Correlation-Id', b'7499c524c77a8f61'), (b'X-ArcGIS-Instance', b'lf3xzxihb00084I'), (b'Access-Control-Expose-Headers', b'Request-Context'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Headers', b'Content-Type, Authorization, X-Esri-Authorization'), (b'Access-Control-Allow-Credentials', b'true'), (b'x-azure-ref', b'20260309T081233Z-16bfbbb745fbdgrthC1BOM1bgn0000001ryg00000000nbmr'), (b'x-fd-int-roxy-purgeid', b'0'), (b'X-Cache', b'TCP_REVALIDATED_HIT'), (b'Accept-Ranges', b'bytes')])
+2026-03-09 13:42:34,105 [INFO] httpx: HTTP Request: GET https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/911_Calls_Data/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&resultRecordCount=200&returnGeometry=true "HTTP/1.1 200 OK"
+2026-03-09 13:42:34,106 [DEBUG] httpcore.http11: receive_response_body.started request=<Request [b'GET']>
+2026-03-09 13:42:34,106 [DEBUG] httpcore.http11: receive_response_body.complete
+2026-03-09 13:42:34,107 [DEBUG] httpcore.http11: response_closed.started
+2026-03-09 13:42:34,107 [DEBUG] httpcore.http11: response_closed.complete
+2026-03-09 13:42:34,108 [DEBUG] httpcore.connection: close.started
+2026-03-09 13:42:34,110 [DEBUG] httpcore.connection: close.complete
+2026-03-09 13:42:34,110 [INFO] app.services.portal: Portal query OK: https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/911_Calls_Data/FeatureServer/0 → 156 records
+2026-03-09 13:42:34,896 [DEBUG] httpcore.connection: connect_tcp.started host='services7.arcgis.com' port=443 local_address=None timeout=15 socket_options=None
+2026-03-09 13:42:34,976 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD59BE50>
+2026-03-09 13:42:34,979 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D6AD496CC0> server_hostname='services7.arcgis.com' timeout=15
+2026-03-09 13:42:35,126 [DEBUG] httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD59BCD0>
+2026-03-09 13:42:35,127 [DEBUG] httpcore.http11: send_request_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:35,127 [DEBUG] httpcore.http11: send_request_headers.complete
+2026-03-09 13:42:35,127 [DEBUG] httpcore.http11: send_request_body.started request=<Request [b'GET']>
+2026-03-09 13:42:35,127 [DEBUG] httpcore.http11: send_request_body.complete
+2026-03-09 13:42:35,127 [DEBUG] httpcore.http11: receive_response_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:35,708 [DEBUG] httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 09 Mar 2026 08:12:35 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'3890'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=30, s-maxage=30'), (b'Content-Encoding', b'gzip'), (b'Last-Modified', b'Wed, 02 Apr 2025 20:21:36 GMT'), (b'ETag', b'sd2969_-16741501'), (b'Vary', b'X-Esri-Authorization'), (b'Request-Context', b'appId=cid-v1:e760746d-7077-47f1-a125-f6cc9f1bba28'), (b'Request-Context', b'appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940'), (b'x-arcgis-upstream', b'us1h07c00-services'), (b'Strict-Transport-Security', b'max-age=63072000'), (b'X-ArcGIS-Trace-Id', b'20260309T064802Z-16bfbbb745fm9w96hC1BOMew9c0000001g50000000005u2y'), (b'x-esri-query-request-units', b'3'), (b'x-esri-tiles-basic-query-mode', b'true'), (b'x-esri-tiles-basic-query-type', b'Basic'), (b'x-esri-org-request-units-per-min', b'usage=3;max=6000'), (b'X-ArcGIS-Correlation-Id', b'd71e9a7934442165'), (b'X-ArcGIS-Instance', b'lf3xzxihb00084I'), (b'Access-Control-Expose-Headers', b'Request-Context'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Headers', b'Content-Type, Authorization, X-Esri-Authorization'), (b'Access-Control-Allow-Credentials', b'true'), (b'x-azure-ref', b'20260309T081235Z-16bfbbb745fz9fsrhC1BOMa5rg0000001td000000000ams2'), (b'x-fd-int-roxy-purgeid', b'0'), (b'X-Cache', b'TCP_HIT'), (b'Accept-Ranges', b'bytes')])
+2026-03-09 13:42:35,712 [INFO] httpx: HTTP Request: GET https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/Emergency_911_Calls/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&resultRecordCount=200&returnGeometry=true "HTTP/1.1 200 OK"
+2026-03-09 13:42:35,712 [DEBUG] httpcore.http11: receive_response_body.started request=<Request [b'GET']>
+2026-03-09 13:42:35,714 [DEBUG] httpcore.http11: receive_response_body.complete
+2026-03-09 13:42:35,714 [DEBUG] httpcore.http11: response_closed.started
+2026-03-09 13:42:35,715 [DEBUG] httpcore.http11: response_closed.complete
+2026-03-09 13:42:35,717 [DEBUG] httpcore.connection: close.started
+2026-03-09 13:42:35,719 [DEBUG] httpcore.connection: close.complete
+2026-03-09 13:42:35,719 [INFO] app.services.portal: Portal query OK: https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/Emergency_911_Calls/FeatureServer/0 → 200 records
+2026-03-09 13:42:36,464 [DEBUG] httpcore.connection: connect_tcp.started host='services7.arcgis.com' port=443 local_address=None timeout=15 socket_options=None
+2026-03-09 13:42:36,905 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD5DB110>
+2026-03-09 13:42:36,905 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D6AD497020> server_hostname='services7.arcgis.com' timeout=15
+2026-03-09 13:42:37,299 [DEBUG] httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD5DAFD0>
+2026-03-09 13:42:37,300 [DEBUG] httpcore.http11: send_request_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:37,300 [DEBUG] httpcore.http11: send_request_headers.complete
+2026-03-09 13:42:37,300 [DEBUG] httpcore.http11: send_request_body.started request=<Request [b'GET']>
+2026-03-09 13:42:37,300 [DEBUG] httpcore.http11: send_request_body.complete
+2026-03-09 13:42:37,300 [DEBUG] httpcore.http11: receive_response_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:37,970 [DEBUG] httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 09 Mar 2026 08:12:38 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'2001'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=30, s-maxage=30'), (b'Content-Encoding', b'gzip'), (b'Last-Modified', b'Fri, 31 Jan 2025 20:21:24 GMT'), (b'ETag', b'sd2653_-574798876'), (b'Vary', b'X-Esri-Authorization'), (b'Request-Context', b'appId=cid-v1:e760746d-7077-47f1-a125-f6cc9f1bba28'), (b'Request-Context', b'appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940'), (b'x-arcgis-upstream', b'us1h07c00-services'), (b'Strict-Transport-Security', b'max-age=63072000'), (b'X-ArcGIS-Trace-Id', b'20260309T064806Z-16bfbbb745fc7z2lhC1BOMd8f80000001rqg00000001db9e'), (b'x-esri-query-request-units', b'3'), (b'x-esri-tiles-basic-query-mode', b'true'), (b'x-esri-tiles-basic-query-type', b'Basic'), (b'x-esri-org-request-units-per-min', b'usage=6;max=6000'), (b'x-esri-query-geometry-field-name', b'Shape'), (b'X-ArcGIS-Correlation-Id', b'1e70fba461cbdc12'), (b'X-ArcGIS-Instance', b'lf3xzxihb000001'), (b'Access-Control-Expose-Headers', b'Request-Context'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Headers', b'Content-Type, Authorization, X-Esri-Authorization'), (b'Access-Control-Allow-Credentials', b'true'), (b'x-azure-ref', b'20260309T081237Z-16bfbbb745f646tdhC1BOMv18c0000001g1000000000fuh4'), (b'x-fd-int-roxy-purgeid', b'0'), (b'X-Cache', b'TCP_HIT'), (b'Accept-Ranges', b'bytes')])
+2026-03-09 13:42:37,973 [INFO] httpx: HTTP Request: GET https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/Story_Map___Live__1__WFL1/FeatureServer/3/query?where=1%3D1&outFields=%2A&f=json&resultRecordCount=200&returnGeometry=true "HTTP/1.1 200 OK"
+2026-03-09 13:42:37,973 [DEBUG] httpcore.http11: receive_response_body.started request=<Request [b'GET']>
+2026-03-09 13:42:37,975 [DEBUG] httpcore.http11: receive_response_body.complete
+2026-03-09 13:42:37,975 [DEBUG] httpcore.http11: response_closed.started
+2026-03-09 13:42:37,975 [DEBUG] httpcore.http11: response_closed.complete
+2026-03-09 13:42:37,976 [DEBUG] httpcore.connection: close.started
+2026-03-09 13:42:37,977 [DEBUG] httpcore.connection: close.complete
+2026-03-09 13:42:37,977 [INFO] app.services.portal: Portal query OK: https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/Story_Map___Live__1__WFL1/FeatureServer/3 → 33 records
+2026-03-09 13:42:38,701 [DEBUG] httpcore.connection: connect_tcp.started host='services7.arcgis.com' port=443 local_address=None timeout=15 socket_options=None
+2026-03-09 13:42:38,798 [DEBUG] httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD5EB950>
+2026-03-09 13:42:38,800 [DEBUG] httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D6AD578560> server_hostname='services7.arcgis.com' timeout=15
+2026-03-09 13:42:39,018 [DEBUG] httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D6AD5EB890>
+2026-03-09 13:42:39,018 [DEBUG] httpcore.http11: send_request_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:39,019 [DEBUG] httpcore.http11: send_request_headers.complete
+2026-03-09 13:42:39,019 [DEBUG] httpcore.http11: send_request_body.started request=<Request [b'GET']>
+2026-03-09 13:42:39,019 [DEBUG] httpcore.http11: send_request_body.complete
+2026-03-09 13:42:39,019 [DEBUG] httpcore.http11: receive_response_headers.started request=<Request [b'GET']>
+2026-03-09 13:42:39,557 [DEBUG] httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 09 Mar 2026 08:12:39 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'828'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=30, s-maxage=30'), (b'Content-Encoding', b'gzip'), (b'Last-Modified', b'Thu, 22 May 2025 14:18:32 GMT'), (b'ETag', b'sd1161_-2133367461'), (b'Vary', b'X-Esri-Authorization'), (b'Request-Context', b'appId=cid-v1:e760746d-7077-47f1-a125-f6cc9f1bba28'), (b'Request-Context', b'appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940'), (b'x-arcgis-upstream', b'us1h07c00-services'), (b'Strict-Transport-Security', b'max-age=63072000'), (b'X-ArcGIS-Trace-Id', b'20260309T081239Z-16bfbbb745f2gbr2hC1BOMvhwg0000000k80000000014qzy'), (b'x-esri-query-request-units', b'3'), (b'x-esri-tiles-basic-query-mode', b'true'), (b'x-esri-tiles-basic-query-type', b'Basic'), (b'x-esri-org-request-units-per-min', b'usage=12;max=6000'), (b'x-esri-query-geometry-field-name', b'Shape'), (b'X-ArcGIS-Correlation-Id', b'ae2ebeba1ba7d2a0'), (b'X-ArcGIS-Instance', b'lf3xzxihb000003'), (b'Access-Control-Expose-Headers', b'Request-Context'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Headers', b'Content-Type, Authorization, X-Esri-Authorization'), (b'Access-Control-Allow-Credentials', b'true'), (b'x-azure-ref', b'20260309T081239Z-16bfbbb745f2gbr2hC1BOMvhwg0000000k80000000014qzy'), (b'x-fd-int-roxy-purgeid', b'0'), (b'X-Cache', b'TCP_MISS'), (b'Accept-Ranges', b'bytes')])
+2026-03-09 13:42:39,558 [INFO] httpx: HTTP Request: GET https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/Emergency_Shelters/FeatureServer/0/query?where=1%3D1&outFields=%2A&f=json&resultRecordCount=200&returnGeometry=true "HTTP/1.1 200 OK"
+2026-03-09 13:42:39,558 [DEBUG] httpcore.http11: receive_response_body.started request=<Request [b'GET']>
+2026-03-09 13:42:39,558 [DEBUG] httpcore.http11: receive_response_body.complete
+2026-03-09 13:42:39,558 [DEBUG] httpcore.http11: response_closed.started
+2026-03-09 13:42:39,558 [DEBUG] httpcore.http11: response_closed.complete
+2026-03-09 13:42:39,558 [DEBUG] httpcore.connection: close.started
+2026-03-09 13:42:39,558 [DEBUG] httpcore.connection: close.complete
+2026-03-09 13:42:39,558 [INFO] app.services.portal: Portal query OK: https://services7.arcgis.com/xNUwUjOJqYE54USz/arcgis/rest/services/Emergency_Shelters/FeatureServer/0 → 4 records
+2026-03-09 13:42:39,563 [INFO] app.services.portal: Portal fetch for 'public_safety': 393 total records
+2026-03-09 13:42:39,563 [INFO] app.data.loader: ✓ Live data for 'public_safety': 393 records from portal

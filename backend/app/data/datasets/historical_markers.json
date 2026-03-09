@@ -1,0 +1,98 @@
+[
+  {
+    "id": "hm-001",
+    "category": "Historical Markers",
+    "name": "First White House of the Confederacy",
+    "description": "Official residence of Jefferson Davis during Montgomery's tenure as the first Confederate capital (Feb-May 1861). Two-story Italianate home with period furnishings and Civil War artifacts.",
+    "location": "644 Washington Ave, Montgomery, AL 36130",
+    "lat": 32.3780,
+    "lon": -86.2980,
+    "year_established": 1921,
+    "type": "Historic Home",
+    "era": "Civil War"
+  },
+  {
+    "id": "hm-002",
+    "category": "Historical Markers",
+    "name": "Alabama State Capitol",
+    "description": "Where Jefferson Davis was inaugurated as Confederate president and where the Selma to Montgomery marches concluded in 1965. National Historic Landmark with stunning Greek Revival architecture.",
+    "location": "600 Dexter Ave, Montgomery, AL 36130",
+    "lat": 32.3772,
+    "lon": -86.2996,
+    "year_established": 1851,
+    "type": "Government Building",
+    "era": "Antebellum / Civil Rights"
+  },
+  {
+    "id": "hm-003",
+    "category": "Historical Markers",
+    "name": "Freedom Riders Bus Station",
+    "description": "Site where Freedom Riders were attacked by a mob in 1961 while testing desegregation of interstate travel. Now a museum dedicated to the Freedom Riders movement.",
+    "location": "210 S Court St, Montgomery, AL 36104",
+    "lat": 32.3762,
+    "lon": -86.3011,
+    "year_established": 2011,
+    "type": "Museum / Historic Site",
+    "era": "Civil Rights"
+  },
+  {
+    "id": "hm-004",
+    "category": "Historical Markers",
+    "name": "Court Square Fountain",
+    "description": "Historic center of Montgomery since the city's founding. Site of the major slave trading market before the Civil War and later the bus stop where Rosa Parks boarded on December 1, 1955.",
+    "location": "1 Court Square, Montgomery, AL 36104",
+    "lat": 32.3766,
+    "lon": -86.3090,
+    "year_established": 1885,
+    "type": "Landmark",
+    "era": "Multiple Eras"
+  },
+  {
+    "id": "hm-005",
+    "category": "Historical Markers",
+    "name": "Legacy Museum: From Enslavement to Mass Incarceration",
+    "description": "Created by the Equal Justice Initiative on the site of a former slave warehouse. Chronicles the history of slavery, racial terror, segregation, and mass incarceration in America.",
+    "location": "115 Coosa St, Montgomery, AL 36104",
+    "lat": 32.3758,
+    "lon": -86.3094,
+    "year_established": 2018,
+    "type": "Museum",
+    "era": "Slavery / Civil Rights / Modern"
+  },
+  {
+    "id": "hm-006",
+    "category": "Historical Markers",
+    "name": "Old Alabama Town",
+    "description": "Six-block historic district with over 50 restored 19th-century buildings. Working craftsmen demonstrations, guided tours, and educational programs about antebellum Montgomery life.",
+    "location": "301 Columbus St, Montgomery, AL 36104",
+    "lat": 32.3831,
+    "lon": -86.3069,
+    "year_established": 1967,
+    "type": "Historic District",
+    "era": "19th Century"
+  },
+  {
+    "id": "hm-007",
+    "category": "Historical Markers",
+    "name": "Civil Rights Memorial Center",
+    "description": "Designed by Maya Lin (Vietnam Veterans Memorial architect). Features a circular black granite table with names of 40 martyrs of the Civil Rights Movement. Operated by SPLC.",
+    "location": "400 Washington Ave, Montgomery, AL 36104",
+    "lat": 32.3769,
+    "lon": -86.3023,
+    "year_established": 1989,
+    "type": "Memorial",
+    "era": "Civil Rights"
+  },
+  {
+    "id": "hm-008",
+    "category": "Historical Markers",
+    "name": "F. Scott Fitzgerald Home",
+    "description": "Author F. Scott Fitzgerald and his wife Zelda lived in this house from 1931-1932. Now a museum featuring literary artifacts and exhibits about the Jazz Age author's connection to Montgomery.",
+    "location": "919 Felder Ave, Montgomery, AL 36106",
+    "lat": 32.3695,
+    "lon": -86.2913,
+    "year_established": 1986,
+    "type": "Historic Home / Museum",
+    "era": "Jazz Age"
+  }
+]

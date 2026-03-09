@@ -1,0 +1,62 @@
+[
+  {
+    "id": "gi-001",
+    "category": "General Information",
+    "name": "Montgomery City Government",
+    "description": "Montgomery operates under a Mayor-Council form of government. Mayor Steven L. Reed leads the executive branch. The City Council has 9 members representing 9 districts.",
+    "location": "City Hall, 103 N Perry St, Montgomery, AL 36104",
+    "lat": 32.3779,
+    "lon": -86.3006,
+    "population": 200603,
+    "area_sq_miles": 159.8,
+    "founded": 1819,
+    "elevation_ft": 221
+  },
+  {
+    "id": "gi-002",
+    "category": "General Information",
+    "name": "Demographics Overview",
+    "description": "Montgomery is the state capital and second-largest city in Alabama. The city has a diverse population with approximately 60.8% African American, 29.2% White, 4.5% Hispanic/Latino, 3.1% Asian, and 2.4% multiracial residents.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "median_income": 42380,
+    "median_age": 35.2,
+    "households": 79851
+  },
+  {
+    "id": "gi-003",
+    "category": "General Information",
+    "name": "Education System",
+    "description": "Montgomery Public Schools serves over 28,000 students across 55 schools. The city is also home to Alabama State University, Auburn University at Montgomery, Faulkner University, Huntingdon College, and the Air University at Maxwell Air Force Base.",
+    "location": "307 S Decatur St, Montgomery, AL 36104",
+    "lat": 32.3737,
+    "lon": -86.3019,
+    "public_schools": 55,
+    "universities": 5,
+    "students": 28000
+  },
+  {
+    "id": "gi-004",
+    "category": "General Information",
+    "name": "Economy & Major Employers",
+    "description": "Major employers include Maxwell Air Force Base, Baptist Health, Jackson Hospital, Hyundai Motor Manufacturing, ALDOT, and state government agencies. The city has a growing tech and startup scene.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "unemployment_rate": 4.2,
+    "major_industries": ["Government", "Military", "Healthcare", "Manufacturing", "Education"]
+  },
+  {
+    "id": "gi-005",
+    "category": "General Information",
+    "name": "Climate Data",
+    "description": "Montgomery has a humid subtropical climate with hot summers and mild winters. Average annual temperature is 64°F. Annual rainfall averages 53 inches. Severe weather season runs from March through June.",
+    "location": "Montgomery, AL",
+    "lat": 32.3792,
+    "lon": -86.3077,
+    "avg_temp_f": 64,
+    "annual_rainfall_inches": 53,
+    "avg_sunny_days": 218
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cs-001",
+    "category": "City Services",
+    "name": "311 Non-Emergency Services",
+    "description": "Montgomery's 311 system handles non-emergency city service requests including pothole repairs, streetlight outages, trash collection issues, and general city inquiries.",
+    "location": "City Hall, 103 N Perry St, Montgomery, AL 36104",
+    "lat": 32.3779,
+    "lon": -86.3006,
+    "contact": "311 or (334) 625-2311",
+    "hours": "Mon-Fri 7:30 AM - 5:00 PM",
+    "status": "Active"
+  },
+  {
+    "id": "cs-002",
+    "category": "City Services",
+    "name": "Water Works - Bill Payment Center",
+    "description": "Montgomery Water Works and Sanitary Sewer Board provides water and sewer services to the metropolitan area. Handles billing, new connections, and water quality concerns.",
+    "location": "164 Commerce St, Montgomery, AL 36104",
+    "lat": 32.3757,
+    "lon": -86.3033,
+    "contact": "(334) 206-1600",
+    "hours": "Mon-Fri 8:00 AM - 5:00 PM",
+    "status": "Active"
+  },
+  {
+    "id": "cs-003",
+    "category": "City Services",
+    "name": "Solid Waste & Recycling",
+    "description": "Curbside collection of household waste and recyclable materials. Special pickups available for large items. Recycling drop-off centers located throughout the city.",
+    "location": "4025 Troy Hwy, Montgomery, AL 36116",
+    "lat": 32.3388,
+    "lon": -86.2585,
+    "contact": "(334) 625-2720",
+    "hours": "Collection: Mon-Fri 6:00 AM - 3:00 PM",
+    "status": "Active"
+  },
+  {
+    "id": "cs-004",
+    "category": "City Services",
+    "name": "Building Permits & Inspections",
+    "description": "Issues building permits, conducts inspections for new construction and renovations. Ensures compliance with Montgomery building codes and safety standards.",
+    "location": "103 N Perry St, Montgomery, AL 36104",
+    "lat": 32.3779,
+    "lon": -86.3006,
+    "contact": "(334) 625-2070",
+    "hours": "Mon-Fri 8:00 AM - 5:00 PM",
+    "status": "Active"
+  },
+  {
+    "id": "cs-005",
+    "category": "City Services",
+    "name": "Animal Control",
+    "description": "Handles stray animal complaints, animal abuse reports, pet licensing, and operates the Montgomery Humane Society shelter with adoption services.",
+    "location": "1150 John Overton Dr, Montgomery, AL 36110",
+    "lat": 32.3958,
+    "lon": -86.2572,
+    "contact": "(334) 409-0622",
+    "hours": "Mon-Sat 8:00 AM - 5:00 PM",
+    "status": "Active"
+  },
+  {
+    "id": "cs-006",
+    "category": "City Services",
+    "name": "Street Maintenance",
+    "description": "Responsible for pothole repair, street resurfacing, sidewalk maintenance, drainage improvements, and traffic signal maintenance throughout Montgomery.",
+    "location": "103 N Perry St, Montgomery, AL 36104",
+    "lat": 32.3779,
+    "lon": -86.3006,
+    "contact": "(334) 625-2680",
+    "hours": "Mon-Fri 7:00 AM - 3:30 PM",
+    "status": "Active"
+  },
+  {
+    "id": "cs-007",
+    "category": "City Services",
+    "name": "Code Enforcement",
+    "description": "Enforces city ordinances related to property maintenance, zoning violations, abandoned structures, overgrown lots, and junk vehicles. Reports can be filed online or via 311.",
+    "location": "103 N Perry St, Montgomery, AL 36104",
+    "lat": 32.3779,
+    "lon": -86.3006,
+    "contact": "(334) 625-2065",
+    "hours": "Mon-Fri 8:00 AM - 5:00 PM",
+    "status": "Active"
+  }
+]
