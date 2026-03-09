@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "functions": {
     "frontend/api/index.py": {
       "runtime": "python3.12"
